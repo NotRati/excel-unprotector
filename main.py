@@ -13,7 +13,7 @@ class Unprotect:
         else:
             self.unprotectXmlList = unprotectXmlList
     def run(self):
-        self.setFilePath('C:\\Users\\User\\Desktop\\Roadmap-Someka-Excel-Template-V1-Free-Version.xlsx')
+        self.getFilePath()
         self.moveExcelFile()
         self.zipConversion()
         self.extractZip()
